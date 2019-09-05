@@ -1,0 +1,185 @@
+body{
+  max-width:1000px;
+  display:flex;
+  flex-flow: row wrap;
+  margin:0 auto;
+}
+
+h1{
+  text-align:center;
+  width:100%;
+  margin:0.5rem 0;
+}
+ul{
+  list-style-type:none;
+  /* margin-left:0px; */
+  padding-left:0;
+  width:100%;
+  overflow:hidden;
+}
+span{
+  padding:0.2rem;
+}
+div{
+  /* margin-left:auto;
+  margin-right:auto; */
+  margin:0.5rem 1rem;
+  border:1px solid #ababab;
+  width:25%;
+  text-align:center;
+}
+
+h3{
+  font-size:0.8rem;
+}
+.fa-bomb,.fa-cutlery,.fa-bug,.fa-beer{
+  /* color:#fff;
+  background:#000; */
+  font-size:1.5rem;
+}
+.bomb1,.cutlery1,.bug1,.beer1{
+  font-size:0.7rem;
+}
+.fa-cutlery::before{
+  content:'\f0f5';
+}
+a{
+  text-decoration:none;
+  color:#fff;
+  background:#000;
+  display:block;
+}
+li{
+  width:3rem;
+  display:inline-block;
+  font-size:0.9rem;
+  cursor: pointer;
+  /* height:3.3rem; */
+}
+.divCom ul{
+  background:#000;
+}
+.divCom ul li{
+  display:block;
+}
+input{
+  margin-bottom:0.5rem;
+  border-radius:5px;
+}
+.div01 a{
+  -webkit-transition:background-color 0.5s;
+  transition:background-color 0.5s;
+}
+.div01 a:hover{
+  background-color:#ababab;
+}
+.div02 a{
+  -webkit-transition:color 0.5s;
+  transition:color 0.5s;
+}
+.div02 a:hover{
+  color:hotpink;
+}
+.div03 li{
+  -webkit-transition:color 0.5s;
+  transition:color 0.5s;
+}
+.div03 li span:first-child:hover{
+  color:green;
+}
+.div04 a{
+  -webkit-transition:box-shadow 0.5s;
+  transition:box-shadow 0.5s;
+}
+.div04 a:hover{
+  box-shadow: 3px 5px #ababab;
+}
+.div05 a{
+  border-bottom:4px solid black;
+  -webkit-transition:border-bottom-color 0.5s;
+  transition:border-bottom-color 0.5s;
+}
+.div05 a:hover{
+  border-bottom-color:red;
+}
+.div06 a{
+  border-bottom:4px solid black;
+  -webkit-transition:border-bottom-color 0.5s;
+  transition:border-bottom-color 0.5s;
+}
+.div06 li:nth-child(1) a:hover{
+  border-bottom-color:red;
+}
+.div06 li:nth-child(2) a:hover{
+  border-bottom-color:green;
+}
+.div06 li:nth-child(3) a:hover{
+  border-bottom-color:blue;
+}
+.div06 li:nth-child(4) a:hover{
+  border-bottom-color:yellow;
+}
+.div07 span:first-child,.div08 span:first-child{
+  padding-left:0.8rem;
+}
+.div07 span:last-child,.div08 span:last-child{
+  padding-left:0.7rem;
+}
+.div07 a{
+  transition: background-color 0.5s, color 0.5s;
+  padding-right:15.7rem;
+}
+.div07 a:hover{
+  background-color:hotpink;
+  color:black;
+}
+.div08 a{
+  transition: background-color 0.5s, color 0.5s ease 0.25s;
+  padding-right:15.7rem;
+}
+.div08 a:hover{
+  background-color:yellow;
+  color:black;
+}
+.div09 ul li a span{
+background:orange;
+padding:2px;
+margin:0;
+width:100%;
+transition:width 0.5s ease;
+display:block;
+box-sizing:border-box;
+}
+.div09 ul li a{
+  padding:0;
+  text-align:center;
+}
+
+.div09 ul li a:hover span{
+  width:15.6rem;
+  text-align:right;
+}
+.div10 a span.fa,
+.div11 a span.fa,
+.div12 a span.fa{
+  transition:transform 0.5s;
+}
+.div10 a:hover span.fa{
+  transform:rotate(360deg);
+}
+.div11 a:hover span.fa{
+  transform:rotateY(180deg);
+}
+.div12 a:hover span.fa{
+  transform:rotateX(180deg);
+}
+.div13{
+  flex-basis:51.3rem;
+}
+.div13 input{
+  transition: width 0.5s, font-size 0.5s;
+}
+.div13 input:focus{
+  width:500px;
+  font-size:1.2em;
+}
